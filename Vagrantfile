@@ -3,7 +3,6 @@ config.vm.box = "ubuntu/xenial64"
 config.vm.network("private_network", ip:"192.168.10.100")
 config.hostsupdater.aliases = ["development.local"]
 
-
 # Provisoning
 config.vm.provision("shell", path: "environment/provision.sh")
 
